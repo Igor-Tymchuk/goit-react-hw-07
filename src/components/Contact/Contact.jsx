@@ -3,7 +3,7 @@ import { FaTrashAlt } from "react-icons/fa";
 import { MdPhone } from "react-icons/md";
 import { BsPersonFill } from "react-icons/bs";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 const Contact = ({ contact }) => {
   const dispatch = useDispatch();

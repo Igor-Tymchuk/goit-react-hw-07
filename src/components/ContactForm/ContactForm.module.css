@@ -33,13 +33,13 @@
     outline: 1px solid gray;
   }
   &:focus-within {
-    outline: 1px solid #2d2d6b;
+    outline: 1px solid #673ab7;
   }
 }
 
 .btn {
   position: relative;
-  background-color: #2d2d6b;
+  background-color: #673ab7;
   z-index: 0;
   border-radius: 10px;
   border: none;
@@ -58,7 +58,7 @@
 
 .btn:before {
   content: "";
-  background: linear-gradient(45deg, #0400ff, #00a2ff, #00fff2, #0400ff);
+  background: linear-gradient(45deg, #673ab7, #6e0099, #ea00ff, #673ab7);
   position: absolute;
   top: -2px;
   left: -2px;

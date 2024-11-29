@@ -5,15 +5,17 @@ html {
 }
 
 body {
-  min-width: 360px;
-  max-width: max-content;
+  min-width: 340px;
+  max-width: 500px;
   margin: 0 auto;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Play", sans-serif;
   background: linear-gradient(to bottom, #889cdb, #6f757a);
-
+  padding: 0 15px;
   font-style: normal;
 }
-
+input {
+  font-family: inherit;
+}
 h1,
 h2,
 h3,

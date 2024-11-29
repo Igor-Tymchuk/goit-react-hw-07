@@ -4,7 +4,7 @@ import s from "./ContactForm.module.css";
 import { useId } from "react";
 import { MdPersonAddAlt1 } from "react-icons/md";
 import { nanoid } from "@reduxjs/toolkit";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contactsOps";
 import { useDispatch } from "react-redux";
 
 const FeedbackSchema = Yup.object().shape({
